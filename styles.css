@@ -18,9 +18,18 @@ div#header-wrap {
   margin-bottom: 50px;
 }
 
+.topic h3 {
+  font-size: 1.5em;
+  text-decoration: underline;
+  margin-top: -10px;
+}
 
-
-
+.topic {
+  background-color: #17509b;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 25px;
+}
 
 
 
@@ -33,8 +42,6 @@ CSS Brainstorming:
   -possibly nav sidebar?
 
 -background image on header?
-
--header font "Archer, serif;"
 
 -sections with class="topic"
   -h3 gets its own font
