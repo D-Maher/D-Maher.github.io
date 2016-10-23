@@ -7,8 +7,15 @@ body {
 header h1 {
   font-family: "Papyrus";
   font-size: 3em;
+  margin-bottom: -20px;
+
+}
+
+div#header-wrap {
   display: flex;
-  margin: auto;
+  width: 100%;
+  justify-content: center;
+  margin-bottom: 50px;
 }
 
 
