@@ -1,10 +1,15 @@
 body {
   background-color: #4078c0;
   color: white;
-  font-family: "Trebuchet MS";
+  font-family: "Avant Garde", Avantgarde, sans-serif;
 }
 
-
+header h1 {
+  font-family: "Papyrus";
+  font-size: 3em;
+  display: flex;
+  margin: auto;
+}
 
 
 
