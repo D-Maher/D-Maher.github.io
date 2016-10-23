@@ -28,6 +28,7 @@ div#header-wrap {
   background-color: #17509b;
   border-radius: 10px;
   padding: 15px;
+  padding-top: 20px;
   margin-bottom: 25px;
 }
 
@@ -47,12 +48,6 @@ CSS Brainstorming:
   -possibly nav sidebar?
 
 -background image on header?
-
--sections with class="topic"
-  -h3 gets its own font
-  -p gets a different font
-  -borders
-  -padding
 
 -different color for visited links
   -using a pseudo-class
