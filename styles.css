@@ -15,13 +15,10 @@ div#header-wrap {
   display: flex;
   width: 100%;
   justify-content: center;
-  margin: -50px;
-  margin-bottom: 50px;
-  padding: 50px;
+  margin: -10px;
+  margin-bottom: 0px;
+  padding: 10px;
   padding-bottom: 35px;
-  border-bottom-style: solid;
-  border-width-bottom: 2px;
-  border-bottom-color: white;
   background-image: url(http://dubleffler.com/wp-content/themes/ventura/images/headers/Blue-Bokeh.jpg);
   background-size: 200%;
 }
@@ -47,20 +44,64 @@ div#main-image-wrap {
   margin-bottom: 75px;
 }
 
+div#nav-bar {
+  width: 100%;
+  background-color: #17509b;
+  margin-bottom: 75px;
+}
 
+div#nav-bar ul {
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  width: 100%
+}
+
+div#nav-bar ul li {
+  display: inline-block;
+  text-align: center;
+  border-width: 2px;
+  border-top-width: 2px;
+  border-style: solid;
+  padding: 5px;
+  width: 50%;
+  font-size: 1.5em;
+  font-variant
+}
+
+div#nav-bar ul li:nth-of-type(2) {
+  border-left: 2px;
+}
+
+div#nav-bar a {
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+a {
+  color: #4bf2b7;
+}
+
+a:visited {
+  color: #8179ea;
+}
+
+@media screen and (max-width: 706px) {
+
+body {
+  font-size: x-small;
+}
+
+div#header-wrap {
+  background-size: 500%;
+}
+
+}
 
 /*
 CSS Brainstorming:
-
--fixed position header (centered) and footer nav (left)
-  -possibly nav sidebar?
-
--background image on header?
-
--different color for visited links
-  -using a pseudo-class
-
--assign ID to form to make it unique with CSS?
 
 -media query
 */
