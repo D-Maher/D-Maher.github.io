@@ -80,6 +80,11 @@ div#nav-bar a {
   font-weight: bolder;
 }
 
+div#gallery img {
+  max-width: 900px;
+  display: block;
+}
+
 a {
   color: #4bf2b7;
 }
@@ -87,6 +92,7 @@ a {
 a:visited {
   color: #8179ea;
 }
+
 
 @media screen and (max-width: 706px) {
 
@@ -99,9 +105,3 @@ div#header-wrap {
 }
 
 }
-
-/*
-CSS Brainstorming:
-
--media query
-*/
